@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+/* global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+header{
+    background: gray;
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom:gainsboro 3px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 10px 0 10px;
+
+}
+
+header #branding{
+    float:left;
+}
+
+header #brading h1{
+    margin: 0;
+
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color: darkblue;
+    font-weight:bold;
+}
+
+header a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+.dark{
+    padding:15px;
+    background: silver;
+    color: white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+/*showcase*/
+#showcase{
+    min-height:400px;
+    background: url("/my-website/images/image-2018-11-22.jpg") no-repeat;
+    width: 80%;
+    margin: auto;
+
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/*boxes */
+#boxes{
+    margin-top:20px;
+
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+/*sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+
+}
+
+/*article about me*/
+article#main-col{
+    float:left;
+    width:65%
+}
+
+/*contact form */
+aside #sidebar .contact aside#sidebar .textarea {
+    width: 90%;
+    padding:5px;
+}
+
+#social{
+    background-color: grey;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color: white;
+    background-color: silver;
+    text-align: center;
+}
+
+/*media queries*/
+@media(max-width:768px){
+   header #branding,
+   header nav,
+   header nav li,
+   #boxes .box,
+   article #main-col, aside#sidebar{
+       float:none;
+       text-align: center;
+       width: 100%;
+   }
+}
+
+   header{
+       padding-bottom:20px;
+   }
+
+   #showcase h1{
+       margin-top:40px;
+   }
+
+  
