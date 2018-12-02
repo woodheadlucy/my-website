@@ -14,8 +14,8 @@ body{
 }
 header{
     background: gray;
-    padding-top: 30px;
-    min-height:70px;
+    padding-top: 50px;
+    min-height:150px;
     border-bottom:gainsboro 3px solid;
 }
 
@@ -36,7 +36,7 @@ header ul{
 header li{
     float:left;
     display: inline;
-    padding: 0 10px 0 10px;
+    padding: 20px 20px;
 
 }
 
